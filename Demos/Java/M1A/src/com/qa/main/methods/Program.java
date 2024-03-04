@@ -15,16 +15,6 @@ public class Program {
 	}
 
 	public static void main(String[] args) {
-
-// 		More "object-oriented" example:
-		
-//		Calculator calc = new Calculator();
-//		System.out.println(calc.add(1, 7));
-//		
-//		Printer myPrinter = new Printer();
-//		myPrinter.sayHello("Anoush");
-		
-		
 		// This method is defined above
 		// It doesn't return anything
 		sayHello("Anoush");
@@ -43,6 +33,13 @@ public class Program {
 		// below:
 		System.out.println(add(5, 50));
 
+// 		More "object-oriented" example:
+		Calculator calc = new Calculator();
+		System.out.println(calc.add(5, 10));
+		
+		Printer myPrinter = new Printer();
+		myPrinter.sayHello("Anoush");
+		
 		// Scanner demo
 		Scanner scanner = new Scanner(System.in);
 
@@ -52,14 +49,18 @@ public class Program {
 		// character \n"
 		int age = scanner.nextInt();
 		System.out.println("Your age is " + age);
-		System.out.println("Please enter your name: ");
 
 		// Clear the scanner - to clear newline character left behind from nextInt()
 		// above
 		scanner.nextLine();
+		
+		System.out.println("Please enter your name: ");
 		String name = scanner.nextLine();
 		System.out.println("Your name is " + name);
 
+		scanner.close(); // close the scanner
+		
+		
 		int myAge = 30;
 		String myName = "Anoush";
 
@@ -81,6 +82,5 @@ public class Program {
 		int number = 123456;
 		// thousand separator
 		System.out.printf("%,8d", number);
-
 	}
 }

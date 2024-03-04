@@ -19,12 +19,12 @@ public class Lab01 {
 		
 		
 		// 4 print lines
-		System.out.println("fred" + 3 + 4); // Answer-->
+		System.out.println("fred" + 3 + 4); // Answer--> fred34
 		
-		System.out.println(3 + 4 + "fred"); // Answer-->
+		System.out.println(3 + 4 + "fred"); // Answer--> 7fred
+//		
+		System.out.println("" + 3 + 4); // Answer--> "34"
 		
-		System.out.println("" + 3 + 4); // Answer-->
-		
-		System.out.println(3 + ' ' + 4); // Answer-->
+		System.out.println(3 + ' ' + 4); // Answer--> 39
 	}
 }
