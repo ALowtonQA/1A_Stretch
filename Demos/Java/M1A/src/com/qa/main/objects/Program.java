@@ -5,10 +5,12 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Car myCar = new Car("BMW", 0); // custom car
-		
+
 		Car bensCar = new Car("Skoda", 10);  // custom car
-		
+	
 		Car robsCar = new Car("Audi");
+		
+		System.out.println("The count is: " + Car.count);
 		
 		System.out.println("The make of my car is: " + myCar.getMake());
 		System.out.println("The make of Matt's car is: " + bensCar.getMake());

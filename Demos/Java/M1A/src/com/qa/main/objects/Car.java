@@ -2,22 +2,27 @@ package com.qa.main.objects;
 
 public class Car {
 
+	// Static properties
+	public static int count;
+	
 	// Instance properties
 	private String make;
 	private int speed;
 	
-	public Car() {} // default constructor
+	public Car() { count++; } // default constructor
 	
 	public Car(String make) {
 		this.make = make;
-		this.speed = 0;
-		
+		this.speed = 0;	
 //		this(make, 0); - this is the same as above
+		
+		count++;
 	}
 	
 	public Car(String make, int speed) {
 		this.make = make;
 		this.speed = speed;
+		count++;
 	}
 
 	// Getters and Setters
