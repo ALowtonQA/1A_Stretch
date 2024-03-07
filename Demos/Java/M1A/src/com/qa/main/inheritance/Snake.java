@@ -16,4 +16,9 @@ public class Snake extends Animal {
 	public void setVenomous(boolean venomous) {
 		this.venomous = venomous;
 	}
+	
+	@Override
+	public void makeNoise() {
+		System.out.println("Hiss");
+	}
 }

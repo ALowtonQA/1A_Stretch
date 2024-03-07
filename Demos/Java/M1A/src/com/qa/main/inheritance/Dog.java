@@ -19,4 +19,9 @@ public class Dog extends Animal {
 	public void setTailLength(float tailLength) {
 		this.tailLength = tailLength;
 	}
+	
+	@Override
+	public void makeNoise() {
+		System.out.println("Bark!!");
+	}
 }
