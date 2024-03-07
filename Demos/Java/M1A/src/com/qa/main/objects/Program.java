@@ -7,7 +7,7 @@ public class Program {
 		Car myCar = new Car("BMW", 0); // custom car
 
 		Car bensCar = new Car("Skoda", 10);  // custom car
-	
+		
 		Car robsCar = new Car("Audi");
 		
 		System.out.println("The count is: " + Car.count);
