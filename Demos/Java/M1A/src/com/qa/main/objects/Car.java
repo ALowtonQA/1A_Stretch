@@ -9,8 +9,6 @@ public class Car {
 	private String make;
 	private int speed;
 	
-	public Car() { count++; } // default constructor
-	
 	public Car(String make) {
 		this.make = make;
 		this.speed = 0;	
