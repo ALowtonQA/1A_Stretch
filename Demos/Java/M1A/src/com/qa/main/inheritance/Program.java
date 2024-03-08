@@ -8,7 +8,7 @@ public class Program {
 		
 		Dog bob = new Dog(17, 10.5f, "House", 5.5f);
 		Snake tom = new Snake(5, 5.5f, "jungle", true);
-		
+
 		ArrayList<Animal> myAnimals = new ArrayList<>();
 		
 		myAnimals.add(bob);

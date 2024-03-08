@@ -1,6 +1,6 @@
 package com.qa.main.inheritance;
 
-public class Animal {
+public abstract class Animal {
 	
 	private int age;
 	private float weight;
@@ -37,7 +37,5 @@ public class Animal {
 		this.habitat = habitat;
 	}
 	
-	public void makeNoise() {
-		System.out.println("Makes noise");
-	}
+	public abstract void makeNoise();
 }
